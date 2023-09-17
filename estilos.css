@@ -1,0 +1,87 @@
+body{
+    background-color:#30BF9F;
+    color:red green blue;
+}
+       
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            padding-left: 10px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 40%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 10% solid #ccc;
+            border-radius: 5%;
+            padding-left: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+#content {
+    
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        width: 80%;
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    }
+
+#header_title{
+    background-color: #2EDD29;
+    color: black;
+    height: 60px;
+    font-size: 21px;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+#header_image{
+    background-color: #135212 ;
+    font-size: 21px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 310px;
+    width: auto;
+
+}
+#nav{
+    background-color: #C6F2C5 ;
+    font-size: 21px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: auto;
+}
+#img{
+    width: 100%;
+    height: 100%;
+}
